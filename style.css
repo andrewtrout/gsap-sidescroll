@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: black;
+}
+
+.full {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+}
+
+.container {
+  width: 600%;
+  height: 65vh;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.right {
+  float: right;
+}
+
+.panel,
+.panel-left {
+  width: 100vw;
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+}
+
+.panel-inner {
+  width: 50%;
+  text-align: center;
+}
+
+.one {
+  background-color: bisque;
+}
+
+.two {
+  background-color: salmon;
+}
+
+.three {
+  background-color: azure;
+}
+
+.four {
+  background-color: bisque;
+}
+.five {
+  background-color: salmon;
+}
+
+.six {
+  background-color: azure;
+}
+
+.panel-left.one {
+  background-color: azure;
+}
