@@ -14,14 +14,15 @@ body {
   background-color: aquamarine;
 }
 
-.container {
+.container-left,
+.container-right {
   width: 600%;
   height: 65vh;
   display: flex;
   flex-wrap: nowrap;
 }
 
-.right {
+.container-right {
   float: right;
 }
 
