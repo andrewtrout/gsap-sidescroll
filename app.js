@@ -7,15 +7,6 @@ let sections2 = gsap.utils.toArray(".panel-left");
 let containerRight = document.querySelector(".container-right");
 let containerLeft = document.querySelector(".container-left");
 
-// let panel = document.querySelector(".panel");
-
-// let panelWidth = document.querySelector(".panel").offsetWidth;
-// container.style.transform = "translateX(calc(-100% + " + panelWidth + "px))";
-
-// window.addEventListener("resize", function(event) {
-//   panelWidth = document.querySelector(".panel").offsetWidth;
-
-// });
 gsap.to(sections2, {
   xPercent: -100 * (sections.length - 1),
   ease: "none",
